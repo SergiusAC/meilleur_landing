@@ -1,0 +1,198 @@
+@media screen and (max-width: 992px) {
+    .header-top {
+        display: none;
+    }
+
+    .header-intro-content {
+        padding-top: 50px;
+    }
+
+    .aromas {
+        padding-bottom: 50px;
+    }
+
+    .offer__free-deliv {
+        margin-top: 50px;
+    }
+
+    .aromas-info__image img {
+        width: 225px;
+    }
+
+    .info-block__order_btn {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .offer__title {
+        width: 20em;
+    }
+
+    .offer__heading h1 {
+        font-size: 0.8em;
+    }
+
+    .offer__desc h2 {
+        font-size: 0.8em;
+    }
+
+    .offer__free-deliv h3 {
+        font-size: 3em;
+        line-height: 1em;
+    }
+
+    .offer__free-deliv {
+        margin-bottom: 2em;
+    }
+
+    .header-order__title {
+        font-size: 2em;
+    }
+
+    .header-order__image img {
+        width: 13em;
+    }
+
+    .header-order__row_left img {
+        width: 1.5em;
+    }
+    .header-order__row_right img {
+        width: 1.5em;
+    }
+
+    .benefits__title h3 {
+        font-size: 3em;
+    }
+
+    .assortment__title h3 {
+        font-size: 2.5em;
+    }
+
+    .about__title h3 {
+        font-size: 0.8em;
+    }
+
+    .how-work__title h3 {
+        font-size: 3em;
+    }
+
+    .make-order__title h3 {
+        font-size: 3em;
+    }
+
+    .order-form {
+        width: 100%;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .aromas {
+        display: none;
+    }
+
+    .aromas-mobile {
+        display: block;
+    }
+
+    .aromas-m-info {
+        background-color: #F0EBE7;
+        width: 100%;
+        font-family: 'PT Sans', sans-serif;
+        padding: 0 1em;
+    }
+
+    .aromas-m-btns-man {
+        width: 50%;
+    }
+
+    .aromas-m-btns-woman {
+        width: 50%;
+    }
+
+    .aromas-m-btns button {
+        background: #262525;
+        border: none;
+        color: #fff;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .aromas-m-btns-divider {
+        background-color: #707070;
+        width: 1px;
+    }
+
+    .aromas-m-info-block {
+        text-align: center;
+    }
+
+    .aromas-m-info-block__title h4 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.75em;
+        font-weight: 300;
+        margin-top: 0.5em;
+    }
+
+    .aromas-m-info-block__image img {
+        width: 70%;
+    }
+
+    .aromas-m-info-block__desc {
+        font-size: 1em;
+        margin-top: 1em;
+        padding: 0em 1em;
+    }
+
+    .aromas-m-info-block__desc span {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        cursor: pointer;
+    }
+
+    /* .aromas-m-info-block__desc_toggle {
+        display: none;
+    } */
+
+    .aromas-m-info-block__old_price p {
+        font-size: 1.5em;
+        text-decoration: line-through;
+        color: #aaa;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .aromas-m-info-block__price {
+        font-size: 2em;
+        color: #000;
+        font-weight: 700;
+    }
+
+    .aromas-m-info__row_left img {
+        width: 1.5em;
+        cursor: pointer;
+    }
+
+    .aromas-m-info__row_right img {
+        width: 1.5em;
+        cursor: pointer;
+    }
+
+    .aromas-m-info-block__order_btn button {
+        background-color: #E8B93D;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        padding: 0.75em 2em;
+        margin-bottom: 1em;
+        cursor: pointer;
+    }
+}

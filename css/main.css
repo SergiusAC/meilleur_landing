@@ -1,0 +1,502 @@
+/* Общие стили */
+
+body {
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.yellow {
+    color: #E8B93D;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+/* Стили для .header */
+
+.header {
+    position: relative;
+}
+
+/* Стили для .header-top */
+
+.header-top {
+    background-color: rgba(35, 35, 35, 0.6);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    width: 269px;
+    margin-bottom: 15px;
+}
+
+.menu__item {
+    margin-left: 20px;
+}
+
+.menu__item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+
+/* Стили для .header-intro */
+
+.header-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header-intro-back.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+/* Стили для .header-intro-content */
+
+.header-intro-content {
+    padding-top: 150px; 
+}
+
+
+/* Стили для .offer */
+
+.offer {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.offer__title {
+    width: 441px;
+}
+
+.offer__heading {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5)
+}
+
+.offer__desc {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5)
+}
+
+.offer__free-deliv {
+    margin-top: 150px;
+}
+
+.offer__free-deliv h3 {
+    font-size: 50px;
+    line-height: 60px;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5)
+}
+
+
+/* Стили для .header-order */
+
+.header-order {
+    margin-bottom: 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px 10px 20px 10px;
+    border: 5px solid #fff;
+    position: relative;
+}
+
+.header-order__title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-order__image img {
+    width: 300px;
+}
+
+.header-order__price {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -20px;
+}
+
+.header-order__price_old {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #aaa;
+    margin-top: 20px;
+    text-decoration: line-through;
+}
+
+.header-order__btn button {
+    background-color: #E8B93D;
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.header-order__row_left {
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+}
+
+.header-order__row_right {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+.main-block {
+    /* margin: 0 20px; */
+}
+
+
+/* Стили для .benefits */
+
+.benefits {
+    padding-top: 40px;
+}
+
+.benefits__title h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.benefit {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.benefit__icon {
+    border: 5px solid #C1C1C1;
+    padding: 30px;
+    width: 175px;
+    margin: 0 auto;
+}
+
+.benefit__title {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.benefit__title p {
+    margin-bottom: 10px;
+}
+
+.benefit__text {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* Стили для .assortment */
+
+.assortment {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.divider {
+    background-color: #707070;
+    width: 1px;
+}
+
+.assortment__title h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.aromas__btn button {
+    background-color: #262525;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.aromas-info {
+    background-color: #F0EBE7;
+    padding: 0 25px; 
+}
+
+.aromas-info__image {
+    margin: 0 20px 0 0;
+}
+
+.aromas-info__image img {
+    width: 300px;
+}
+
+.info-block {
+    margin: 0 auto;
+}
+
+.info-block__title h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-block__desc {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.info-block__price_old {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #aaa;
+    margin-top: 20px;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.info-block__price {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.info-block__order_btn {
+    text-align: center;
+}
+
+.info-block__order_btn button {
+    background-color: #E8B93D;
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.aromas-info__row_left {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.aromas-info__row_right {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.aromas-mobile {
+    display: none;
+}
+
+
+/* Стили для .about */
+
+.about {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #333;
+    background: url('../img/IMG_4152.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.about__title h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.about__video video {
+    width: 100%;
+}
+
+
+/* Стили для .how-work */
+
+.how-work {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.how-work__title h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.how-work-step {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.how-work-step__icon {
+    border: 5px solid #C1C1C1;
+    padding: 30px;
+    width: 175px;
+    margin: 0 auto;
+    fill: #E8B93D;
+}
+
+.how-work-step__icon img {
+    fill: #E8B93D;
+}
+
+.how-work-step__title {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.how-work-step__title p {
+    margin-bottom: 10px;
+}
+
+.how-work-step__text {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* Стили для .make-order */
+
+.make-order {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #E3E3E3;
+    text-align: center;
+}
+
+.make-order__title h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+.make-order__text {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.order-form {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 520px;
+    margin: 0 auto;
+    padding: 25px 0;
+    border: 5px solid #fff;
+}
+
+.form {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form__name {
+    display: block;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.form__number {
+    display: block;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.form__submit {
+    display: block;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #E8B93D;
+    border: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Стили для .footer */
+.footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 25px
+}
+
+.footer p {
+    margin: 0;
+}
